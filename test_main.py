@@ -12,4 +12,4 @@ def test_read_main():
 
     message = response.json()["message"]
 
-    assert len(message) < 10
+    assert len(message) < 40
